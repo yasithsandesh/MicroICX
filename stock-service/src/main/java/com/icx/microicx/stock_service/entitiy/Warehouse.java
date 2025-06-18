@@ -21,7 +21,7 @@ public class Warehouse {
     private long id;
     private String name;
 
-    @OneToMany(mappedBy = "warehouse")
+    @OneToMany(mappedBy = "warehouse",fetch = FetchType.LAZY)
     private List<Stock> stocks;
 
     public Warehouse(){}
