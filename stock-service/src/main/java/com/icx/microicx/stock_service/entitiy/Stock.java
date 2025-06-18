@@ -1,6 +1,8 @@
 package com.icx.microicx.stock_service.entitiy;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -32,7 +34,7 @@ public class Stock {
     @Column(name = "added_date")
     private LocalDateTime addedDate;
 
-    @OneToMany(mappedBy = "stock")
+    @OneToMany(mappedBy = "stock",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     private List<StockItem> stockItems;
 
     public  Stock(){}
