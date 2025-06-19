@@ -1,8 +1,6 @@
 package com.icx.microicx.admin_service.security;
 
 import com.icx.microicx.admin_service.entity.Admin;
-import com.icx.microicx.admin_service.repository.AdminRepository;
-import com.icx.microicx.admin_service.service.AdminService;
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
@@ -11,7 +9,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.*;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -25,7 +22,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
     private final JwtUtil jwtUtil;
     private final CustomUserDetailsService userDetailsService;
-    private final AdminRepository adminRepository;
+    //private final AdminRepository adminRepository;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
@@ -50,8 +47,8 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         }
 
         if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-            Admin admin = adminRepository.findByUsername(username)
-                    .orElseThrow(() -> new UsernameNotFoundException("User not found"));
+            //Admin admin = adminRepository.findByUsername(username).orElseThrow(() -> new UsernameNotFoundException("User not found"));
+            Admin admin = userDetailsService.loadAdminByUsername(username);
 
             //UserDetails userDetails = userDetailsService.loadUserByUsername(username);
             //if (jwtUtil.validateToken(jwt, userDetails)) {

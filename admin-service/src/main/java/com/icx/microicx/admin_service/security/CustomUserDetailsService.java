@@ -24,10 +24,12 @@ public class CustomUserDetailsService implements UserDetailsService {
                 Collections.singletonList(new SimpleGrantedAuthority("ROLE_" + admin.getRole())));
     }
 
-    public UserDetails loadUserByAdmin(Admin admin) throws UsernameNotFoundException {
-        Admin admin = adminRepository.findByUsername(username)
+    public Admin loadAdminByUsername(String username) throws UsernameNotFoundException {
+        return adminRepository.findByUsername(username)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found"));
+    }
 
+    public UserDetails loadUserByAdmin(Admin admin) throws UsernameNotFoundException {
         return new User(admin.getUsername(), admin.getPassword(),
                 Collections.singletonList(new SimpleGrantedAuthority("ROLE_" + admin.getRole())));
     }
