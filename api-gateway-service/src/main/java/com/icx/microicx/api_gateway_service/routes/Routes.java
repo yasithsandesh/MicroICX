@@ -5,7 +5,6 @@ import org.springframework.cloud.gateway.server.mvc.handler.GatewayRouterFunctio
 import org.springframework.cloud.gateway.server.mvc.handler.HandlerFunctions;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.function.RequestPredicate;
 import org.springframework.web.servlet.function.RequestPredicates;
 import org.springframework.web.servlet.function.RouterFunction;
 import org.springframework.web.servlet.function.ServerResponse;
@@ -34,6 +33,17 @@ public class Routes {
         return  GatewayRouterFunctions.route("stock_service")
                 .route(RequestPredicates.path("api/v1/warehouse/**"), HandlerFunctions.http("http://localhost:4080"))
                 .build();
+    }
+
+    //Admin Service
+    @Bean
+    public RouterFunction<ServerResponse> adminServiceRoute() {
+        return GatewayRouterFunctions.route("admin_service")
+                .route(
+                        RequestPredicates.path("api/v1/admin/**"),
+                        //HandlerFunctions.http("http://localhost:4060")
+                        req -> HandlerFunctions.forward("http://localhost:4060").handle(req)
+                ).build();
     }
 
 }
