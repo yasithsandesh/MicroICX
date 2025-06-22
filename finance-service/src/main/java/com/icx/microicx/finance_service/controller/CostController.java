@@ -45,8 +45,8 @@ public class CostController {
 
     @GetMapping(path = "/filter")
     public ResponseEntity<List<Cost>> getCostByDateRange(
-            @RequestParam("start") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)LocalDate start,
-            @RequestParam("end") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)LocalDate end
+            @RequestParam("start") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate start,
+            @RequestParam("end") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate end
     ){
         return new ResponseEntity<>(costService.getCostByDateRange(start, end), HttpStatus.OK);
     }
