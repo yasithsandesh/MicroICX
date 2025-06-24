@@ -2,10 +2,16 @@ package com.icx.microicx.employee_service.dto.request;
 
 import com.icx.microicx.employee_service.entity.enums.DepartmentType;
 import jakarta.validation.constraints.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 public class EmployeeSaveRequestDTO {
 
     @NotBlank(message = "First name is required")
