@@ -50,7 +50,7 @@ Auth via JWT across services using shared auth-layer
 
 1. Clone repo & navigate:
    ```bash
-   git clone [REPO_URL]
+   git clone git@github.com:yasithsandesh/MicroICX.git
    cd MicroICX
    ```
 
