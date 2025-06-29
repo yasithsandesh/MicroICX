@@ -37,7 +37,7 @@ Project maintainers are responsible for clarifying and enforcing standards of ac
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the team at:
 
 - 📧 yasithsandeshvithanage2002@gmail.com
-- 📧 nethmidinanjana@example.com  
+- 📧 nethmidinanjana@gmail.com  
 - 📧 ks.official.sahan@gmail.com
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate.
