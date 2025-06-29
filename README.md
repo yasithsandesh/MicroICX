@@ -37,11 +37,14 @@ An Enterprise Resource Planning system built with Spring Boot, using microservic
 ### Clone & Run
 
 ```bash
-git clone https://github.com/your-org/erp-system.git
-cd erp-system
+
+git clone git@github.com:yasithsandesh/MicroICX.git
+
 # Run individual services
+
 cd material-service
 mvn spring-boot:run
+
 ```
 
 ### 👥 Contributors
@@ -59,7 +62,7 @@ Sahan – Admin/User Service & Authentication
 This project is licensed under the **MIT License**.  
 You are free to use, modify, and distribute this software with proper attribution.
 
-See the full license in the [LICENSE](./LICENSE) file.
+See the full license in the [LICENSE](./LICENSE.md) file.
 
 ---
 
