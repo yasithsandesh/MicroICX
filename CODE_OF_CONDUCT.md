@@ -1,63 +1,54 @@
-# 🌐 Supreme Code of Conduct
+# 🌐 Contributor Covenant Code of Conduct
 
-This Code of Conduct governs all user and contributor behavior across  
-**projects owned by Subasin Arachchige Sahan Sachintha**
+## 👥 Our Pledge
 
----
+We as members, contributors, and leaders pledge to make participation in our project and community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, race, religion, or sexual identity.
 
-## 💡 Our Values
-
-We expect everyone involved to follow:
-- Professionalism
-- Respect
-- Truthfulness
-- No exploitation of systems, people, or legal loopholes
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ---
 
-## ✅ Expected Behavior
+## ✅ Our Standards
 
-- Constructive feedback only
-- Respect project ownership and licenses
-- Report issues responsibly
-- Accept decisions of the repository owner without debate
+Examples of behavior that contributes to a positive environment include:
 
----
+- Showing respect and empathy toward all contributors
+- Giving and receiving constructive feedback gracefully
+- Acknowledging different opinions, experiences, and cultures
+- Accepting responsibility and apologizing to those affected by our mistakes
 
-## 🚫 Unacceptable Behavior
+Examples of unacceptable behavior include:
 
-- Threats, abuse, or aggressive language
-- Reusing code without permission
-- Removing license headers
-- Injecting harmful, illegal, or misleading contributions
-- Discussing usage violations publicly instead of reporting
-
----
-
-## 🛡️ Enforcement
-
-The owner may:
-- Reject pull requests
-- Ban users or IPs
-- File takedowns
-- Pursue legal action for misuse or license violation
+- Offensive or discriminatory comments or behavior
+- Trolling, insulting, or attacking individuals
+- Publishing others’ private information (e.g., emails, phone numbers)
+- Any form of harassment or unwelcome sexual attention
 
 ---
 
-## 🔐 Responsibility
+## 🚦 Enforcement Responsibilities
 
-> You are responsible for your behavior and contributions.
-> Violators will be permanently blocked and reported.
-
----
-
-## 📞 Contact
-
-Subasin Arachchige Sahan Sachintha  
-📧 ks.official.sahan@gmail.com  
-📱 +94 768 701148  
-🔗 GitHub: [ks-official-Sahan](https://github.com/ks-official-Sahan)
+Project maintainers are responsible for clarifying and enforcing standards of acceptable behavior and may take appropriate and fair corrective action in response to any behavior they deem inappropriate.
 
 ---
 
-<!-- SUPREME_MARKER: CODE_OF_CONDUCT: e093bfa1-bf3d-4b5f-b1df -->
+## 📢 Reporting & Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the team at:
+
+📧 yasithsandeshvithanage2002@gmail.com
+📧 nethmidinanjana@example.com  
+📧 ks.official.sahan@gmail.com
+
+All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate.
+
+---
+
+## 📜 Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html)
+
+[homepage]: https://www.contributor-covenant.org
+
+For answers to common questions about this code of conduct, see  
+[https://www.contributor-covenant.org/faq](https://www.contributor-covenant.org/faq)
