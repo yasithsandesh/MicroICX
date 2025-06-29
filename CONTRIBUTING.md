@@ -1,75 +1,62 @@
 # 🤝 Contributing Guidelines
 
-Thank you for your interest in contributing to a project under the Supreme Proprietary License.
+Thank you for your interest in contributing to this ERP System project!  
+We welcome contributions of all kinds — bug fixes, enhancements, documentation, and ideas.
 
 ---
 
-## 👑 Owner Information
+## 🧭 How to Contribute
 
-**Subasin Arachchige Sahan Sachintha**  
-📧 Email: <ks.official.sahan@gmail.com>  
-📱 Mobile: +94 768 701148  
-🔗 GitHub: [ks-official-Sahan](https://github.com/ks-official-Sahan)
+1. **Fork the Repository**  
+   Click the “Fork” button on the top right of the repository page.
 
----
+2. **Clone Your Fork**
+   ```bash
+   git clone https://github.com/your-username/erp-system.git
+   cd erp-system
+   ```
+3. **Create a New Branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Make Changes & Commit**
+. Write clear, well-structured code
+. Use meaningful commit messages
 
-## 🧭 Contribution Principles
+5. **Push to Your Fork**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request (PR)**
+   Go to the original repo and open a PR from your forked branch.
 
-1. 📄 **Read the [SUPREME_LICENSE.md](./SUPREME_LICENSE.md)**  
-   You must fully agree to the license terms before contributing.
+### ✅ What Can You Contribute?
 
-2. 🔐 **All Contributions are Property of the Licensor**  
-   Any PRs, ideas, or code are considered transfers of ownership.
+🐞 Bug fixes
+📄 Documentation improvements
+⚡ Performance enhancements
+🔐 Security improvements
+🌟 New features (open an issue to discuss first)
 
-3. 💬 **Open Issues Before Sending PRs**  
-   Always describe bugs, proposals, or changes via GitHub Issues first.
+### 📌 Code Style Guidelines
 
-4. 🚧 **Follow Code Style & Security Best Practices**  
-   No insecure, plagiarized, or AI-generated low-effort content allowed.
+Use consistent formatting (spaces, indentation, etc.)
+Follow Java best practices (Spring Boot structure)
+Include comments for complex logic
+Validate inputs and handle exceptions gracefully
 
----
+### 🧪 Testing
 
-## 🔒 Legal Commitments
+Make sure your code:
+Doesn’t break existing functionality
+Passes relevant unit/integration tests
+Includes new tests if adding features
 
-By contributing, you agree that:
+### 💬 Need Help?
+Open a GitHub Issue with the question label. We’ll respond as soon as possible.
 
-> "All my contributions to this project are irrevocably assigned to  
-> Subasin Arachchige Sahan Sachintha. I waive any claims of ownership, royalties, or intellectual property."
-
----
-
-## ✅ Accepted Contributions
-
-- Bug fixes
-- Documentation improvements
-- Performance optimizations
-- Security enhancements
-- New features (upon request only)
-
----
-
-## 🚫 Not Accepted
-
-- License modifications
-- Backdoor or telemetry code
-- Re-licensing suggestions
-- Plagiarized or unauthorized assets
-
----
-
-## 🧼 Commit Message Format
-
-Use the following format:
-
-[TYPE] Short Description
-
-BODY (if needed)
-Fixes #<issue-number>
-
-Examples:
-
-- `[FIX] Resolve token expiration bug`
-- `[DOC] Update setup instructions`
+🙌 Code of Conduct
+Please follow our [Code of Conduct](./CODE_OF_CONDUCT.md) in all your interactions.
 
 ---
-<!-- SUPREME_MARKER: CONTRIBUTING: d9f5f91d-eabc-441f-a1cf -->
+Thank you for making this project better! 💙
